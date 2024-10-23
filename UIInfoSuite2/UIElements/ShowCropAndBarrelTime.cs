@@ -271,6 +271,18 @@ internal class ShowCropAndBarrelTime : IDisposable
         return I18n.SVEBirch();
       case "FlashShifter.StardewValleyExpandedCP_Fir_Tree":
         return I18n.SVEFir();
+      case "wildflour.ateliercrops_MysticTrumpet_tree":
+        return I18n.WAGMysticTrumpet();
+      case "wildflour.ateliercrops_StrangeCap_tree":
+        return I18n.WAGStrangeCap();
+      case "wildflour.ateliercrops_Witchwood_tree":
+        return I18n.WAGWitchwood();
+      case "Fellowclown.PC_ReuuTree":
+        return I18n.PCReuu();
+      case "Fellowclown.PC_MeekTree":
+        return I18n.PCMeek();
+      case " Fellowclown.PC_HeaviousTree":
+        return I18n.PCHeavious();        
       default:
         return $"Unknown (#{treeType})";
     }
